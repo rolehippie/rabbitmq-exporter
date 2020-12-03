@@ -1,4 +1,4 @@
-# Standards: 0.1
+# Standards: 1.2
 ---
 # @var rabbitmq_exporter_version:description: Version of the Docker image
 rabbitmq_exporter_version: v1.0.0-RC7.1
@@ -10,7 +10,7 @@ rabbitmq_exporter_image: "kbudde/rabbitmq-exporter:{{ rabbitmq_exporter_version 
 rabbitmq_exporter_network:
 
 # @var rabbitmq_exporter_publish:description: Publish the Docker image on thet binding
-rabbitmq_exporter_publish: 9180
+rabbitmq_exporter_publish: 9419
 
 # @var rabbitmq_exporter_url:description: URL to access RabbitMQ
 rabbitmq_exporter_url: http://127.0.0.1:15672

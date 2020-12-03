@@ -3,7 +3,7 @@
 - name: Converge
   hosts: all
   vars:
-    rebbitmq_exporter_publish: 127.0.0.1:9180
+    rebbitmq_exporter_publish: 127.0.0.1:9419
   roles:
     - role: docker
     - role: rabbitmq-exporter
