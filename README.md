@@ -95,7 +95,7 @@ Publish the Docker image on thet binding
 #### Default value
 
 ```YAML
-rabbitmq_exporter_publish: 9180
+rabbitmq_exporter_publish: 9419
 ```
 
 ### rabbitmq_exporter_url
