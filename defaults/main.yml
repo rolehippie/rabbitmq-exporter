@@ -1,0 +1,38 @@
+# Standards: 0.1
+---
+# @var rabbitmq_exporter_version:description: Version of the Docker image
+rabbitmq_exporter_version: v1.0.0-RC7.1
+
+# @var rabbitmq_exporter_image:description: Docker image to use and run
+rabbitmq_exporter_image: "kbudde/rabbitmq-exporter:{{ rabbitmq_exporter_version }}"
+
+# @var rabbitmq_exporter_network:description: A Docker network to assign the container
+rabbitmq_exporter_network:
+
+# @var rabbitmq_exporter_publish:description: Publish the Docker image on thet binding
+rabbitmq_exporter_publish: 9180
+
+# @var rabbitmq_exporter_url:description: URL to access RabbitMQ
+rabbitmq_exporter_url: http://127.0.0.1:15672
+
+# @var rabbitmq_exporter_username:description: Username to access RabbitMQ
+rabbitmq_exporter_username: guest
+
+# @var rabbitmq_exporter_password:description: Password to access RabbitMQ
+rabbitmq_exporter_password: guest
+
+# @var rabbitmq_exporter_capabilities:description: List of capabilities
+rabbitmq_exporter_capabilities:
+  - bert
+  - no_sort
+
+# @var rabbitmq_exporter_exporters:description: List of enabled exporters
+rabbitmq_exporter_exporters:
+  - connections
+  - shovel
+  - federation
+  - exchange
+  - node
+  - queue
+
+...

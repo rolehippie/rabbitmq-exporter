@@ -1,0 +1,38 @@
+# Standards: 1.2
+---
+- name: Write default config
+  notify:
+    - Restart rabbitmq-exporter
+  template:
+    src: default.j2
+    dest: /etc/default/rabbitmq-exporter
+  tags:
+    - rabbitmq-exporter
+
+- name: Prepare service file
+  notify:
+    - Restart rabbitmq-exporter
+  template:
+    src: service.j2
+    dest: /etc/systemd/system/rabbitmq-exporter.service
+  tags:
+    - rabbitmq-exporter
+
+- name: Create docker network
+  when: rabbitmq_exporter_network | default(False)
+  docker_network:
+    name: "{{ rabbitmq_exporter_network }}"
+  tags:
+    - rabbitmq-exporter
+
+- name: Start exporter service
+  systemd:
+    name: rabbitmq-exporter
+    state: started
+    daemon_reload: True
+    masked: False
+    enabled: True
+  tags:
+    - rabbitmq-exporter
+
+...

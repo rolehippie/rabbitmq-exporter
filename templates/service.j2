@@ -1,0 +1,29 @@
+[Unit]
+Description=Prometheus exporter for RabbitMQ
+
+Wants=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+RestartSec=10s
+EnvironmentFile=/etc/environment
+
+ExecStop=/bin/sh -c '/usr/bin/docker ps | /bin/grep %p 1> /dev/null && /usr/bin/docker stop %p || true'
+ExecStartPre=/bin/sh -c '/usr/bin/docker ps | /bin/grep %p 1> /dev/null && /usr/bin/docker kill %p || true'
+ExecStartPre=/bin/sh -c '/usr/bin/docker ps -a | /bin/grep %p 1> /dev/null && /usr/bin/docker rm %p || true'
+ExecStartPre=/usr/bin/docker pull {{ rabbitmq_exporter_image }}
+ExecStart=/usr/bin/docker run --rm \
+  --name %p \
+  --hostname %p \
+  --env-file /etc/default/rabbitmq-exporter \
+{% if rabbitmq_exporter_network | default(False) %}
+  --network {{ rabbitmq_exporter_network }} \
+{% endif %}
+{% if rabbitmq_exporter_publish | default(False) %}
+  --publish {{ rabbitmq_exporter_publish }}:9419 \
+{% endif %}
+  {{ rabbitmq_exporter_image }}
+
+[Install]
+WantedBy=multi-user.target

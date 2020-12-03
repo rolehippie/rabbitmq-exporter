@@ -1,0 +1,11 @@
+# Standards: 1.2
+---
+- name: Converge
+  hosts: all
+  vars:
+    rebbitmq_exporter_publish: 127.0.0.1:9180
+  roles:
+    - role: docker
+    - role: rabbitmq-exporter
+
+...
