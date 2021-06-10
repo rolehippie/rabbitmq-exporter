@@ -1,6 +1,6 @@
 # rabbitmq-exporter
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/rabbitmq-exporter) [![Build Status](https://img.shields.io/drone/build/rolehippie/rabbitmq-exporter/master?logo=drone)](https://cloud.drone.io/rolehippie/rabbitmq-exporter) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/rabbitmq-exporter)](https://github.com/rolehippie/rabbitmq-exporter/blob/master/LICENSE) 
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/rabbitmq-exporter) [![Testing Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/testing/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/readme/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/galaxy/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/rabbitmq-exporter)](https://github.com/rolehippie/rabbitmq-exporter/blob/master/LICENSE) 
 
 Ansible role to install and configure a Prometheus exporter for RabbitMQ. 
 
