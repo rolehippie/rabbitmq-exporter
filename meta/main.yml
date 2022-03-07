@@ -20,6 +20,8 @@
 # [rolehippie.docker](https://github.com/rolehippie/docker)
 # @end
 galaxy_info:
+  role_name: rabbitmq-exporter
+  namespace: rolehippie
   author: Thomas Boerger
   description: Ansible role to install and configure a Prometheus exporter for RabbitMQ
   license: Apache-2.0
