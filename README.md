@@ -1,30 +1,31 @@
 # rabbitmq-exporter
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/rabbitmq-exporter) [![Testing Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/testing/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/readme/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/galaxy/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/rabbitmq-exporter)](https://github.com/rolehippie/rabbitmq-exporter/blob/master/LICENSE) 
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/rabbitmq-exporter) [![Testing Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/testing/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/readme/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/rabbitmq-exporter/workflows/galaxy/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/rabbitmq-exporter)](https://github.com/rolehippie/rabbitmq-exporter/blob/master/LICENSE)
 
-Ansible role to install and configure a Prometheus exporter for RabbitMQ. 
+Ansible role to install and configure a Prometheus exporter for RabbitMQ.
 
-## Sponsor 
+## Sponsor
 
-[![Proact Deutschland GmbH](https://proact.eu/wp-content/uploads/2020/03/proact-logo.png)](https://proact.eu) 
+[![Proact Deutschland GmbH](https://proact.eu/wp-content/uploads/2020/03/proact-logo.png)](https://proact.eu)
 
 Building and improving this Ansible role have been sponsored by my employer **Proact Deutschland GmbH**.
 
 ## Table of content
 
-* [Default Variables](#default-variables)
-  * [rabbitmq_exporter_capabilities](#rabbitmq_exporter_capabilities)
-  * [rabbitmq_exporter_exporters](#rabbitmq_exporter_exporters)
-  * [rabbitmq_exporter_image](#rabbitmq_exporter_image)
-  * [rabbitmq_exporter_network](#rabbitmq_exporter_network)
-  * [rabbitmq_exporter_password](#rabbitmq_exporter_password)
-  * [rabbitmq_exporter_publish](#rabbitmq_exporter_publish)
-  * [rabbitmq_exporter_url](#rabbitmq_exporter_url)
-  * [rabbitmq_exporter_username](#rabbitmq_exporter_username)
-  * [rabbitmq_exporter_version](#rabbitmq_exporter_version)
-* [Dependencies](#dependencies)
-* [License](#license)
-* [Author](#author)
+- [Default Variables](#default-variables)
+  - [rabbitmq_exporter_capabilities](#rabbitmq_exporter_capabilities)
+  - [rabbitmq_exporter_exporters](#rabbitmq_exporter_exporters)
+  - [rabbitmq_exporter_image](#rabbitmq_exporter_image)
+  - [rabbitmq_exporter_network](#rabbitmq_exporter_network)
+  - [rabbitmq_exporter_password](#rabbitmq_exporter_password)
+  - [rabbitmq_exporter_publish](#rabbitmq_exporter_publish)
+  - [rabbitmq_exporter_url](#rabbitmq_exporter_url)
+  - [rabbitmq_exporter_username](#rabbitmq_exporter_username)
+  - [rabbitmq_exporter_version](#rabbitmq_exporter_version)
+- [Discovered Tags](#discovered-tags)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Author](#author)
 
 ---
 
@@ -128,9 +129,14 @@ Version of the Docker image
 rabbitmq_exporter_version: v1.0.0-RC7.1
 ```
 
+## Discovered Tags
+
+**_rabbitmq-exporter_**
+
+
 ## Dependencies
 
-* [rolehippie.docker](https://github.com/rolehippie/docker)
+- [rolehippie.docker](https://github.com/rolehippie/docker)
 
 ## License
 
