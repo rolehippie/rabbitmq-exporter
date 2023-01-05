@@ -5,7 +5,7 @@
   vars:
     rebbitmq_exporter_publish: 127.0.0.1:9419
   roles:
-    - role: docker
-    - role: rabbitmq-exporter
+    - role: rolehippie.docker
+    - role: rolehippie.rabbitmq_exporter
 
 ...
