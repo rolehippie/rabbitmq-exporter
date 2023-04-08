@@ -1,6 +1,11 @@
 # rabbitmq-exporter
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/rabbitmq-exporter) [![General Workflow](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/general.yml) [![Readme Workflow](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/readme.yml) [![Galaxy Workflow](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/galaxy.yml) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/rabbitmq-exporter)](https://github.com/rolehippie/rabbitmq-exporter/blob/master/LICENSE) [![Ansible Role](https://img.shields.io/ansible/role/52132)](https://galaxy.ansible.com/rolehippie/rabbitmq_exporter)
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&amp;logoColor=white)](https://github.com/rolehippie/rabbitmq-exporter)
+[![General Workflow](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/general.yml)
+[![Readme Workflow](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/readme.yml)
+[![Galaxy Workflow](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/galaxy.yml)
+[![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/rabbitmq-exporter)](https://github.com/rolehippie/rabbitmq-exporter/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/role-rolehippie.rabbitmq-exporter-blue)](https://galaxy.ansible.com/rolehippie/rabbitmq_exporter)
 
 Ansible role to install and configure a Prometheus exporter for RabbitMQ.
 
