@@ -24,10 +24,20 @@
   tags:
     - rabbitmq-exporter
 
+- name: Pull docker image
+  when:
+    - rabbitmq_exporter_pull_image
+  docker_image:
+    name: "{{ rabbitmq_exporter_image }}"
+    source: pull
+  tags:
+    - rabbitmq-exporter
+
 - name: Create docker network
-  when: rabbitmq_exporter_network | default(False)
+  when:
+    - rabbitmq_exporter_network | default(False)
   docker_network:
-    name: "{{ rabbitmq_exporter_network }}"
+    name: '{{ rabbitmq_exporter_network }}'
   tags:
     - rabbitmq-exporter
 

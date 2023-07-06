@@ -23,6 +23,7 @@ Building and improving this Ansible role have been sponsored by my current and p
   - [rabbitmq_exporter_network](#rabbitmq_exporter_network)
   - [rabbitmq_exporter_password](#rabbitmq_exporter_password)
   - [rabbitmq_exporter_publish](#rabbitmq_exporter_publish)
+  - [rabbitmq_exporter_pull_image](#rabbitmq_exporter_pull_image)
   - [rabbitmq_exporter_url](#rabbitmq_exporter_url)
   - [rabbitmq_exporter_username](#rabbitmq_exporter_username)
   - [rabbitmq_exporter_version](#rabbitmq_exporter_version)
@@ -106,6 +107,16 @@ Publish the Docker image on thet binding
 
 ```YAML
 rabbitmq_exporter_publish: 9419
+```
+
+### rabbitmq_exporter_pull_image
+
+Pull image as part of the tasks
+
+#### Default value
+
+```YAML
+rabbitmq_exporter_pull_image: true
 ```
 
 ### rabbitmq_exporter_url
