@@ -146,7 +146,7 @@ Version of the Docker image
 #### Default value
 
 ```YAML
-rabbitmq_exporter_version: v1.0.0-RC7.1
+rabbitmq_exporter_version: 1.0.0-RC19
 ```
 
 ## Discovered Tags

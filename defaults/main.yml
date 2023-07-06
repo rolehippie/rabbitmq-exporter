@@ -2,7 +2,7 @@
 ---
 # @var rabbitmq_exporter_version:description: Version of the Docker image
 # renovate: datasource=docker depName=kbudde/rabbitmq-exporter
-rabbitmq_exporter_version: v1.0.0-RC7.1
+rabbitmq_exporter_version: 1.0.0-RC19
 
 # @var rabbitmq_exporter_image:description: Docker image to use and run
 rabbitmq_exporter_image: "kbudde/rabbitmq-exporter:{{ rabbitmq_exporter_version }}"
