@@ -156,6 +156,7 @@ rabbitmq_exporter_version: 1.0.0-RC19
 ## Dependencies
 
 - [rolehippie.docker](https://github.com/rolehippie/docker)
+- [community.docker](https://github.com/ansible-collections/community.docker)
 
 ## License
 
