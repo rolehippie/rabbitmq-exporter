@@ -1,7 +1,6 @@
-# Standards: 1.2
 ---
 - name: Restart rabbitmq-exporter
-  systemd:
+  ansible.builtin.systemd:
     name: rabbitmq-exporter
     state: restarted
     daemon_reload: yes
