@@ -2,7 +2,7 @@
 - name: Write default config
   notify:
     - Restart rabbitmq-exporter
-  template:
+  ansible.builtin.template:
     src: default.j2
     dest: /etc/default/rabbitmq-exporter
     owner: root
@@ -14,7 +14,7 @@
 - name: Prepare service file
   notify:
     - Restart rabbitmq-exporter
-  template:
+  ansible.builtin.template:
     src: service.j2
     dest: /etc/systemd/system/rabbitmq-exporter.service
     owner: root
@@ -26,7 +26,7 @@
 - name: Pull docker image
   when:
     - rabbitmq_exporter_pull_image
-  docker_image:
+  community.docker.docker_image:
     name: "{{ rabbitmq_exporter_image }}"
     source: pull
   tags:
@@ -35,13 +35,13 @@
 - name: Create docker network
   when:
     - rabbitmq_exporter_network | default(False)
-  docker_network:
+  community.docker.docker_network:
     name: '{{ rabbitmq_exporter_network }}'
   tags:
     - rabbitmq-exporter
 
 - name: Start exporter service
-  systemd:
+  ansible.builtin.systemd:
     name: rabbitmq-exporter
     state: started
     daemon_reload: True
