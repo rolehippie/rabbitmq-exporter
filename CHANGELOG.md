@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v1.1.0...v2.0.0) (2024-02-12)
+
+
+### Features
+
+* drop support for ubuntu 18.04 ([f2e7a21](https://github.com/rolehippie/rabbitmq-exporter/commit/f2e7a21013e81d112c553e85df359dd226428d76))
+* used full qualified collection names ([1e96a43](https://github.com/rolehippie/rabbitmq-exporter/commit/1e96a4326c405434b7840262e352b2d07080f2aa))
+
+
+### Bugfixes
+
+* remove meta requirements and document used collections ([160faa2](https://github.com/rolehippie/rabbitmq-exporter/commit/160faa2ef09151defb26c8eac4f6ad1a57ea2513))
+
 ## [1.1.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v1.0.0...v1.1.0) (2023-07-10)
 
 
