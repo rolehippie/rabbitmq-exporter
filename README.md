@@ -1,4 +1,4 @@
-# rabbitmq-exporter
+# workspace
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/rabbitmq-exporter)
 [![General Workflow](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/rabbitmq-exporter/actions/workflows/general.yml)
@@ -75,7 +75,8 @@ Docker image to use and run
 #### Default value
 
 ```YAML
-rabbitmq_exporter_image: kbudde/rabbitmq-exporter:{{ rabbitmq_exporter_version }}
+rabbitmq_exporter_image: kbudde/rabbitmq-exporter:{{ rabbitmq_exporter_version 
+  }}
 ```
 
 ### rabbitmq_exporter_network
@@ -151,7 +152,6 @@ rabbitmq_exporter_version: 1.0.0-RC19
 ## Discovered Tags
 
 **_rabbitmq-exporter_**
-
 
 ## Dependencies
 
