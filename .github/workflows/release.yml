@@ -1,4 +1,5 @@
 ---
+# yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
 name: release
 
 "on":
@@ -17,10 +18,21 @@ jobs:
         with:
           token: ${{ secrets.BOT_ACCESS_TOKEN }}
 
-      - name: Semantic release
-        uses: cycjimmy/semantic-release-action@v3
+      - name: Write buildtime
+        run: date >| .github/RELEASE
+
+      - name: Install releaser
+        run: |
+          npm install -g \
+            conventional-changelog-conventionalcommits@6.1.0 \
+            semantic-release@23.1.1 \
+            @semantic-release/changelog \
+            @semantic-release/git
+
+      - name: Run releaser
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+<<<<<<< HEAD
         with:
           extra_plugins: |
             conventional-changelog-conventionalcommits@6.1.0
@@ -37,5 +49,8 @@ jobs:
           message: "docs: automated release update [skip ci]"
           push: true
           commit: --signoff
+=======
+        run: semantic-release
+>>>>>>> 9bda87f (ci: update release process and add schema to workflows)
 
 ...
