@@ -16,10 +16,10 @@ ExecStart=/usr/bin/docker run --rm \
   --name %p \
   --hostname %p \
   --env-file /etc/default/rabbitmq-exporter \
-{% if rabbitmq_exporter_network | default(False) %}
+{% if rabbitmq_exporter_network | default(false) %}
   --network {{ rabbitmq_exporter_network }} \
 {% endif %}
-{% if rabbitmq_exporter_publish | default(False) %}
+{% if rabbitmq_exporter_publish | default(false) %}
   --publish {{ rabbitmq_exporter_publish }}:9419 \
 {% endif %}
   {{ rabbitmq_exporter_image }}

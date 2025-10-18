@@ -13,4 +13,4 @@ def test_running_and_enabled(host):
 
 
 def test_server_socket(host):
-    assert host.socket("tcp://127.0.0.1:9419").is_listening
+    assert host.socket("tcp://0.0.0.0:9419").is_listening

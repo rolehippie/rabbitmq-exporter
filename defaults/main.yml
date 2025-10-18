@@ -7,7 +7,7 @@ rabbitmq_exporter_version: 1.0.0-RC19
 rabbitmq_exporter_image: "kbudde/rabbitmq-exporter:{{ rabbitmq_exporter_version }}"
 
 # @var rabbitmq_exporter_pull_image:description: Pull image as part of the tasks
-rabbitmq_exporter_pull_image: True
+rabbitmq_exporter_pull_image: true
 
 # @var rabbitmq_exporter_network:description: A Docker network to assign the container
 rabbitmq_exporter_network:

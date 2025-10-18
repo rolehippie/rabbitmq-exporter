@@ -30,11 +30,15 @@ galaxy_info:
       versions:
         - focal
         - jammy
+        - noble
   galaxy_tags:
     - prometheus
     - exporter
     - rabbitmq
 
 dependencies: []
+
+collections:
+  - community.docker
 
 ...
