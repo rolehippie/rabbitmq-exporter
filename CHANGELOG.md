@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v2.0.0...v2.1.0) (2025-10-18)
+
+
+### Features
+
+* apply new repo structure and update linting ([15ae35b](https://github.com/rolehippie/rabbitmq-exporter/commit/15ae35be918842db13ce6e61e420ffd73177168c))
+* upgrade to 1.0.0 for the exporter ([a69b8e9](https://github.com/rolehippie/rabbitmq-exporter/commit/a69b8e9ec646c04215fb28117b6049bdc0580fff))
+
 ## [2.0.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v1.1.0...v2.0.0) (2024-02-12)
 
 
