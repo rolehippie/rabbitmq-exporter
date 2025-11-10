@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v2.1.0...v3.0.0) (2025-11-10)
+
+
+### Features
+
+* **major:** update dependency community.docker to v5 ([#25](https://github.com/rolehippie/rabbitmq-exporter/issues/25)) ([ac85d50](https://github.com/rolehippie/rabbitmq-exporter/commit/ac85d50ece49ce607daaf1468e1ee5c73bb83acb))
+
 ## [2.1.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v2.0.0...v2.1.0) (2025-10-18)
 
 
