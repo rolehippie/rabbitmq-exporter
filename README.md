@@ -75,8 +75,7 @@ Docker image to use and run
 #### Default value
 
 ```YAML
-rabbitmq_exporter_image: kbudde/rabbitmq-exporter:{{ rabbitmq_exporter_version 
-  }}
+rabbitmq_exporter_image: kbudde/rabbitmq-exporter:{{ rabbitmq_exporter_version }}
 ```
 
 ### rabbitmq_exporter_network
