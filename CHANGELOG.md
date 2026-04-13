@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.2.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.1.0...v3.2.0) (2026-04-13)
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.2.0,<5.3.0 ([#38](https://github.com/rolehippie/rabbitmq-exporter/issues/38)) ([b6567a9](https://github.com/rolehippie/rabbitmq-exporter/commit/b6567a97318cde528b37107c9e70637463f133d7))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([4efd5d3](https://github.com/rolehippie/rabbitmq-exporter/commit/4efd5d32cee69e04d833cd20888f8eaed9c311cd))
+
 ## [3.1.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.0.0...v3.1.0) (2026-04-06)
 
 ### Dependencies
