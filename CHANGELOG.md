@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.3.0...v3.4.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#45](https://github.com/rolehippie/rabbitmq-exporter/issues/45)) ([5207330](https://github.com/rolehippie/rabbitmq-exporter/commit/52073305bfc907a01357beec1f595d1f3b2ae058))
+* **patch:** update dependency python to v3.14.7 ([#43](https://github.com/rolehippie/rabbitmq-exporter/issues/43)) ([dc6fe72](https://github.com/rolehippie/rabbitmq-exporter/commit/dc6fe727ef1ed7cc4030b93d1956be5a96e5dcc6))
+
 ## [3.3.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.2.0...v3.3.0) (2026-07-27)
 
 ## [3.2.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.1.0...v3.2.0) (2026-04-13)
