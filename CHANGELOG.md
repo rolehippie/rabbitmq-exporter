@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.5.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.4.0...v3.5.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#48](https://github.com/rolehippie/rabbitmq-exporter/issues/48)) ([614781b](https://github.com/rolehippie/rabbitmq-exporter/commit/614781b0585e9dc06f08af0e86bd451a3166c917))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#49](https://github.com/rolehippie/rabbitmq-exporter/issues/49)) ([8109004](https://github.com/rolehippie/rabbitmq-exporter/commit/8109004cddb8dc1213dd11233915d83a9d0e8650))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#46](https://github.com/rolehippie/rabbitmq-exporter/issues/46)) ([63dd8d1](https://github.com/rolehippie/rabbitmq-exporter/commit/63dd8d14e36ed700d342d07279f50e95722be940))
+* **patch:** update dependency pre-commit to v4.6.2 ([#47](https://github.com/rolehippie/rabbitmq-exporter/issues/47)) ([ace183b](https://github.com/rolehippie/rabbitmq-exporter/commit/ace183bcdb9ac47e974bf69f9d929022e6d511c0))
+
 ## [3.4.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.3.0...v3.4.0) (2026-08-10)
 
 ### Dependencies
