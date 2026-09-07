@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.6.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.5.1...v3.6.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([d5dd2d5](https://github.com/rolehippie/rabbitmq-exporter/commit/d5dd2d5e3d2785b2e656c36adecf16efe799f310))
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.3.0,<5.4.0 ([#51](https://github.com/rolehippie/rabbitmq-exporter/issues/51)) ([d50f4d3](https://github.com/rolehippie/rabbitmq-exporter/commit/d50f4d3e3b83c67db8cbbe661fc72041e5036ad1))
+
 ## [3.5.1](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.5.0...v3.5.1) (2026-08-31)
 
 ### Dependencies
