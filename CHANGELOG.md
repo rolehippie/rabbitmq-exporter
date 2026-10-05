@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.7.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.6.0...v3.7.0) (2026-10-05)
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.4.0,<5.5.0 ([#59](https://github.com/rolehippie/rabbitmq-exporter/issues/59)) ([d58cccb](https://github.com/rolehippie/rabbitmq-exporter/commit/d58cccbcde2c0b4bd0b26c6747a22e470f33d4b6))
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#52](https://github.com/rolehippie/rabbitmq-exporter/issues/52)) ([7284ab2](https://github.com/rolehippie/rabbitmq-exporter/commit/7284ab242e1a01d67c373c9d976789759968f485))
+* **mise:** update dependency pipx:ansible-core to v2.21.5 ([#61](https://github.com/rolehippie/rabbitmq-exporter/issues/61)) ([6933756](https://github.com/rolehippie/rabbitmq-exporter/commit/69337562fa60620b01985c6fab5568e2b8437b51))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.2 ([#54](https://github.com/rolehippie/rabbitmq-exporter/issues/54)) ([cd8393f](https://github.com/rolehippie/rabbitmq-exporter/commit/cd8393ff6a9994c2fb02f8af1d5999690971de7a))
+* **mise:** update dependency pipx:ansible-lint to v26.9.0 ([#55](https://github.com/rolehippie/rabbitmq-exporter/issues/55)) ([99b90d3](https://github.com/rolehippie/rabbitmq-exporter/commit/99b90d337a8c0276aaa3776ca83580de29404738))
+* **mise:** update dependency pipx:molecule to v26.9.0 ([#56](https://github.com/rolehippie/rabbitmq-exporter/issues/56)) ([2f30784](https://github.com/rolehippie/rabbitmq-exporter/commit/2f3078431cb7bebfdc49117fb7d093ec99bf2dc4))
+* **mise:** update dependency prek to v0.5.3 ([#53](https://github.com/rolehippie/rabbitmq-exporter/issues/53)) ([d42bee8](https://github.com/rolehippie/rabbitmq-exporter/commit/d42bee8bf0057dbfdfdf5394ea3b4fcae8f87746))
+* **mise:** update dependency prek to v0.5.4 ([#57](https://github.com/rolehippie/rabbitmq-exporter/issues/57)) ([aeae6fa](https://github.com/rolehippie/rabbitmq-exporter/commit/aeae6fa8877d14c812d1e970ee7972e283fa4f64))
+* **mise:** update dependency prek to v0.5.5 ([#60](https://github.com/rolehippie/rabbitmq-exporter/issues/60)) ([a32c215](https://github.com/rolehippie/rabbitmq-exporter/commit/a32c215220838fc6f07bd67e41b860872bad27d5))
+
 ## [3.6.0](https://github.com/rolehippie/rabbitmq-exporter/compare/v3.5.1...v3.6.0) (2026-09-07)
 
 ### Features
